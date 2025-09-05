@@ -1,0 +1,14 @@
+[package]
+name = "kmeans_assign"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[lib]
+name = "kmeans_assign"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0"
